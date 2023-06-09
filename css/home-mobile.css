@@ -427,10 +427,273 @@
 .card-services{
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 25px;
+}
+
+#services-1{
+    padding-top: 25px;
 }
 
 .container-services img{
-    border-radius: 20%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.container-controls{
+    width: 290px;
+    height: 119px;
+    background-color: var(--white2);
+    display: inline-flex;
+    border-radius: 16px;
+}
+
+.text-controls h2{
+    padding-top: 18px;
+    padding-left: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--purple);
+}
+
+.text-controls p{
+    margin-top: 15px;
+    padding-left: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+.buton-destination button{
+    margin-left: 43px;
+    margin-top: 15px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #845EF7;
+    border-radius: 8px;
+    background-color: var(--white2);
+}
+
+#services-2{
+    margin-top: 16px;
+}
+
+#services-3{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+footer{
+    background-color: var(--dark);
+}
+
+.title-footer h2{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--white);
+}
+
+.form{
+    margin-top: 26px;
+    display: block;
+}
+
+.name-map{
+    
+    width: 270px;
+    height: 52px;
+    background: #30373E;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: var(--gray2);
+    padding-left: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.city{
+    margin-top: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 290px;
+    height: 52px;
+    background: #30373E;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: var(--gray2);
+}
+
+.date input{
+    margin-top: 16px;
+    width: 270px;
+    height: 52px;
+    background: #30373E;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: var(--gray2);
+    padding-left: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url("../assets/calendario.svg");
+    background-repeat: no-repeat;
+    background-position: 261px;
+}
+
+.email{
+     margin-top: 16px;   
+    width: 270px;
+    height: 52px;
+    background: #30373E;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: var(--gray2);
+    padding-left: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.concordo{
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.concordo input{
+    width: 24px;
+    height: 24px;
+}
+
+
+.concordo p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: var(--white);
+}
+
+.button-enviar{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 16px;
+}
+
+.button-enviar button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 290px;
+    height: 44px;
+    background: var(--purple2);
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    text-align: center;
+    color: var(--white);
+}
+
+.text-footer p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--white);
+    padding: 15px 15px 31.83px 15px;
+}
+
+.text-footer img{
+    padding-left: 15px;
+    padding-bottom: 31.83px;
+}
+
+.footer-about h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--white);
+    padding-left: 15px;
+}
+
+.lista-about{  
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.lista-about li{
+    padding-bottom: 16px;  
+}
+
+.list{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--white);
+   
+}
+
+.redes-social{
+    margin-left: 15px;
+}
+
+.inst{
+    padding-right: 24px;
+}
+
+.redes-social{
+    margin-top: 32px;
+    padding-bottom: 44px;
 }
 
 /* reset in css*/
