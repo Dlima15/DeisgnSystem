@@ -48,6 +48,7 @@
 }
 
 .logo img{
+    margin-top: 15px;
     width: 58.52px;
     height: auto;
 }
@@ -75,7 +76,7 @@
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
-.all-itens {
+.all-itens-one {
     padding: 0 15px 0 15px;
 }
 
@@ -130,11 +131,11 @@
 }
 
 .container-about{
-    padding: 15px 15px 15px 15px;
     background-color: var(--white2);
 }
 
 .about h2{
+    padding-top: 15px; 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -144,6 +145,7 @@
 }
 
 .about p{
+    padding-top: 17px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -153,7 +155,283 @@
     color: var(--dark);
 }
 
+/* section 2 == Mais */
 
+.img-content-two{
+    padding-top: 24px;
+    width: 290px;
+    height: auto;
+}
+
+.text-section-two{
+    position: absolute;
+    top: 1060px;
+    width: 290px;
+    height: 225px;
+    border: 1px solid #D3D7DB;
+    border-radius: 16px;
+    background-color: var(--white);
+}
+
+.text-section-two p{
+    padding-left: 15px;
+    padding-top: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+.text-section-two button{
+    margin: 24px 15px 24px 15px;
+    width: 260px;
+    height: 44px;
+    border: 1px solid var(--purple2);
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--purple2);
+
+}
+
+/* section 3 == cubo */
+
+.about-company{
+    margin-top: 200px;
+    width: 290px;
+    height: 268px;
+    background: #FFFFFF;
+    border: 1px solid #D3D7DB;
+    border-radius: 16px;
+}
+
+.class-margin-about{
+    padding: 0 15px 0 15px;
+}
+
+.itens-about-company{
+    padding: 15px 15px 15px 15px;
+}
+
+.itens-about-company h2{
+    padding-top: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+.itens-about-company p{
+    color: var(--dark);
+
+    padding-top: 8px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+}
+
+.service{
+    margin-top: -170px;
+}
+
+.work-class{
+    margin-top: 39px;
+    padding: 0 15px 0 15px;
+}
+
+.work-content-class h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--dark);
+}
+
+.work-content-class img{
+    margin-top: 26px;
+}
+
+.work-content-class h3{
+    margin-top: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+.work-content-class p{
+    margin-top: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+.button-part-three{
+    width: calc(100% - 30px);
+    display: inline-block;
+    padding: 18px 15px 39px 15px;
+}
+
+.button-part-three-one{
+    width: 127px;
+    height: 44px;
+    background: #845EF7;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--white);
+    margin-right: 16px;
+}
+
+.button-part-three-two{
+    width: 127px;
+    height: 44px;
+    border: 1px solid var(--purple2);
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--purple2);
+}
+
+.title-vantagens{
+    padding: 15px 15px 0 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--dark);
+    margin-bottom: 25px;
+}
+
+.all-itens-vantagens{
+    background-color: var(--white2);
+}
+
+.container-vantagens{
+    margin: 0 15px 0 15px;
+    width: 290px;
+    height: auto;  
+    background: var(--white);
+    border: 1px solid var(--gray3);
+    border-radius: 16px;
+}
+
+.content-vantagens{
+    display: inline-flex;
+}
+
+
+.content-vantagens img{
+    width: 40px;
+    height: auto;
+    padding-bottom: 160px;
+    padding-left: 15px;
+}
+
+.content-vantagens p{
+    padding-left:  10px;
+    padding-top: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+.calendario{
+    margin-top: 16px;
+}
+
+.container-calendario{
+    margin: 0 15px 0 15px;
+    width: 290px;
+    height: auto;  
+    background: var(--white);
+    border: 1px solid var(--gray3);
+    border-radius: 16px;
+}
+
+.content-calendario{
+    display: inline-flex;
+}
+
+.content-calendario img{
+    width: 40px;
+    height: auto;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.content-calendario p{
+    padding-left:  10px;
+    padding-top: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+#aviator{
+    padding-bottom: 170px;
+}
+
+.calendario{
+    padding-bottom: 15px;
+}
+
+.title-services h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--dark);
+    padding-left: 15px;
+    padding-top: 24px;
+}
+
+.card-services{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-services img{
+    border-radius: 20%;
+}
 
 /* reset in css*/
 
