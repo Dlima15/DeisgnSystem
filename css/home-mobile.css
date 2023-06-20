@@ -77,16 +77,17 @@
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 .all-itens-one {
-    padding: 0 15px 0 15px;
+    padding: 0 5% 0 5%;
 }
 
 .content-one{
-    width: 290px;
+    width: 100%;
     height: 308px;
     margin-top: 15px;
     margin-bottom: 24px;
     border-radius: 24px;
     background-image: url(../assets/low-angle-photo-of-balconies-2462015\ 1.png);
+    background-position:  center;
 }
 
 .text-content-one h2{
