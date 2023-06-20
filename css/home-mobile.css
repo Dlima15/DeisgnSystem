@@ -86,7 +86,7 @@
     margin-top: 15px;
     margin-bottom: 24px;
     border-radius: 24px;
-    background-image: url(../assets/low-angle-photo-of-balconies-2462015\ 1.png);
+    background-image: url("../assets/Content 1 oc.png");
     background-position:  center;
 }
 
@@ -133,6 +133,8 @@
 
 .container-about{
     background-color: var(--white2);
+ align-items: center;
+  justify-content: center;
 }
 
 .about h2{
@@ -157,21 +159,30 @@
 }
 
 /* section 2 == Mais */
+.section-two{
+    position: relative;
+}
+
 
 .img-content-two{
     padding-top: 24px;
-    width: 290px;
+    z-index: -1;
+}
+
+.img-content-two img{
+    width: 100%;
     height: auto;
 }
 
 .text-section-two{
-    position: absolute;
-    top: 1060px;
-    width: 290px;
+    position: relative;
+    width: 100%;
     height: 225px;
     border: 1px solid #D3D7DB;
     border-radius: 16px;
     background-color: var(--white);
+    z-index: 1;
+    margin-top: -130px;
 }
 
 .text-section-two p{
@@ -187,8 +198,11 @@
 }
 
 .text-section-two button{
-    margin: 24px 15px 24px 15px;
-    width: 260px;
+    margin-top: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 14px 15px 24px 15px;
+    width: 90%;
     height: 44px;
     border: 1px solid var(--purple2);
     border-radius: 8px;
@@ -198,6 +212,7 @@
     font-size: 14px;
     line-height: 18px;
     color: var(--purple2);
+    background-color: var(--white);
 
 }
 
@@ -319,6 +334,7 @@
     font-size: 14px;
     line-height: 18px;
     color: var(--purple2);
+    background-color: var(--white);
 }
 
 .title-vantagens{
