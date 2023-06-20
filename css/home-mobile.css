@@ -313,7 +313,7 @@
 }
 
 .button-part-three-one{
-    width: 127px;
+    width: 45%;
     height: 44px;
     background: #845EF7;
     border-radius: 8px;
@@ -327,7 +327,7 @@
 }
 
 .button-part-three-two{
-    width: 127px;
+    width: 45%;
     height: 44px;
     border: 1px solid var(--purple2);
     border-radius: 8px;
@@ -339,6 +339,8 @@
     color: var(--purple2);
     background-color: var(--white);
 }
+
+/*  inicio section 6 ===================================================== Vantagens */
 
 .title-vantagens{
     padding: 15px 15px 0 15px;
@@ -353,11 +355,13 @@
 
 .all-itens-vantagens{
     background-color: var(--white2);
+    width: 100%;
 }
 
 .container-vantagens{
-    margin: 0 15px 0 15px;
-    width: 290px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: calc(100% - 30px);
     height: auto;  
     background: var(--white);
     border: 1px solid var(--gray3);
@@ -374,10 +378,11 @@
     height: auto;
     padding-bottom: 160px;
     padding-left: 15px;
+    padding-top: 21px;
 }
 
 .content-vantagens p{
-    padding-left:  10px;
+    padding-left:  15px;
     padding-top: 15px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -394,7 +399,7 @@
 
 .container-calendario{
     margin: 0 15px 0 15px;
-    width: 290px;
+    width: calc(100% - 30px);
     height: auto;  
     background: var(--white);
     border: 1px solid var(--gray3);
