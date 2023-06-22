@@ -50,7 +50,7 @@
 
 .logo img{
     margin-top: 15px;
-    width: 58.52px;
+    width: 70px;
     height: auto;
 }
 
@@ -78,7 +78,7 @@
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 .all-itens-one {
-    padding: 0 5% 0 5%;
+    padding: 0 15px 0 15px;
 }
 
 .content-one{
@@ -737,6 +737,95 @@ footer{
     margin-top: 32px;
     padding-bottom: 44px;
 }
+
+
+
+
+/* Estilização version Tablet*/
+
+@media (min-width: 768px) {
+
+        .buttons-header{
+            margin-left: 50px;
+        }
+
+        .search{
+            margin-right: 50px;
+        }
+
+        .content-one{
+            width: calc(100% - 100px);
+            height: 662px;
+            margin-left: 50px;
+            margin-right: 50px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .text-content-one{
+            margin-left: 40px;
+        }
+
+        .text-content-one h2{
+            margin-right: 40px;
+            margin-top: 40px;
+            font-size: 72px;
+            font-weight: 800;
+            line-height: 120%;
+        }
+
+        .text-content-one p{
+            margin-top: 24px;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 130%;
+            letter-spacing: 0.24px;
+        }
+
+        .button-one{
+            margin-left: 40px;
+        }
+
+        .button-one button{
+            margin-top: 48px;
+            width: 141px
+            height: 22px
+            
+        }
+
+        .about{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .about h2{
+            font-size: 48px;
+            line-height: 125%;
+        }
+
+        .about p{
+            font-size: 18px;
+            line-height: 180%;
+            letter-spacing: 0.18px;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* reset in css*/
 
