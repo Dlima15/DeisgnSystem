@@ -898,6 +898,40 @@ footer{
             margin-left: 40px;
         }    
 
+        .work-class{
+            margin: 0 50px 0 50px;
+        }
+
+        .work-content-class h2{
+            margin-top: 50px;
+            font-size: 48px;
+        }
+
+        .work-content-class h3{
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 130%;
+            letter-spacing: 0.24px;
+        }
+
+        .work-content-class p{
+            font-size: 16px;
+            line-height: 200%;
+            letter-spacing: 0.16px;
+        }
+        
+        .button-part-three{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .button-part-three-one{
+            width: 15%;
+        }
+
+        .button-part-three-two{
+            width: 25%;
+        }
 }
 
 
