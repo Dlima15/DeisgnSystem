@@ -932,6 +932,24 @@ footer{
         .button-part-three-two{
             width: 25%;
         }
+
+        .work-content-class h2{
+            font-size: 48px;
+            line-height: 125%;
+        }
+
+        .work-content-class h3{
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 130%;
+            letter-spacing: 0.24px;
+        }
+
+        .work-content-class{
+            font-size: 16px;
+            line-height: 200%;
+            letter-spacing: 0.16px;
+        }
 }
 
 
