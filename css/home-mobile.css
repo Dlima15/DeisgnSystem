@@ -950,6 +950,10 @@ footer{
             line-height: 200%;
             letter-spacing: 0.16px;
         }
+
+        .bigger-box-vantagens{
+            display: inline-flex;
+        }
 }
 
 
