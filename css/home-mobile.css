@@ -954,6 +954,10 @@ footer{
         .bigger-box-vantagens{
             display: inline-flex;
         }
+
+        .margin-all-itens-vantagens{
+            margin: 0 50px 0 50px;
+        }
 }
 
 
