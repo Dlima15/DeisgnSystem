@@ -343,6 +343,10 @@
 
 /*  inicio section 6 ===================================================== Vantagens */
 
+#vant{
+    margin-top: 16px;
+}
+
 .title-vantagens{
     padding: 15px 15px 0 15px;
     font-family: 'Montserrat';
@@ -393,10 +397,6 @@
     line-height: 180%;
     letter-spacing: 0.01em;
     color: var(--dark);
-}
-
-.calendario{
-    margin-top: 16px;
 }
 
 .container-calendario{
@@ -518,12 +518,7 @@
     height: 16px;
 }
 
-#services-2{
-    margin-top: 16px;
-}
-
 #services-3{
-    margin-top: 16px;
     margin-bottom: 24px;
 }
 
@@ -956,6 +951,14 @@ footer{
         }
 
         .margin-all-itens-vantagens{
+            margin: 0 50px 0 50px;
+        }
+
+        .left-right-services{
+            display:inline-flex;
+        }
+
+        .services{
             margin: 0 50px 0 50px;
         }
 }
