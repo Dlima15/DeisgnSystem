@@ -961,6 +961,71 @@ footer{
         .services{
             margin: 0 50px 0 50px;
         }
+
+        .all-itens-footer{
+            margin-left: 50px;
+        }
+
+        .title-footer{
+            padding-top: 50px;
+        }
+
+        .title-footer h2{
+            font-family: Montserrat;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 125%; 
+        }
+
+        .name-map{
+            width: 570px;
+            height: 60px;
+            flex-shrink: 0;
+        }
+
+        .city{
+            width: 590px;
+            height: 60px;
+        }
+
+        .date input{
+            width: 570px;
+            height: 60px;
+        }
+
+        .name-email input{
+            width: 570px;
+            height: 60px;
+        }
+
+        .container-enviar{
+            display: inline-flex;
+        }
+
+        .concordo{
+            font-family: Open Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px; 
+            letter-spacing: 0.14px;
+        }
+
+        .button-enviar{
+            height: 58px;
+        }
+
+        .text-footer p{
+            margin-right: 120px;
+            font-family: Open Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 200%; 
+            letter-spacing: 0.16px;
+        }
+
 }
 
 
