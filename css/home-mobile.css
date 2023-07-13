@@ -954,8 +954,16 @@ footer{
             margin: 0 50px 0 50px;
         }
 
-        .left-right-services{
-            display:inline-flex;
+        .left-services{
+            display: inline-flex;
+        }
+
+        .center-services{
+            display: inline-flex;
+        }
+
+        .rigth-services{
+            display: inline-flex;
         }
 
         .services{
