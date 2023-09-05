@@ -1,0 +1,15 @@
+{
+  "name": "designsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/style.scss:css/style.css",
+    "dev":  "sass --watch --color src/style.scss:css/style.css"
+  },
+  "author": "Danilo Lima",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.66.1"
+  }
+}

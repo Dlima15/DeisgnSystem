@@ -1,0 +1,1165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --dark: #000000;
+    --gray1:#30373E;;
+    --white: #FFFFFF;
+    --white2: #FAFAFA;
+    --gray2: #ADB5BD;
+    --gray3:  #D3D7DB;
+    --gray: #666666;
+    --purple: #5A27F2;
+    --purple2: #845EF7;
+    --purple3: #E1D4FF;
+    --purple4: #F8F5FF;
+    --alt-font: 'Montserrat', Sans-serif; 
+}
+
+/*---------------- Animação --------------------*/
+
+@keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* Desloca o elemento para cima 20px */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* Volta à posição original */
+    }
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+
+/* xxxxxxxxxxxxx seção do header xxxxxxxxxxxxxxxx */
+
+.header{
+    width: 100%;
+    height: 64px;
+    background: var(--purple4);
+    border-radius: 0px 0px 32px 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-header{
+    cursor: pointer;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 15px;
+}
+
+.bar{
+    background-color: var(--dark);
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 24px;
+    height: 2px;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo img{
+    margin-top: 15px;
+    width: 70px;
+    height: auto;
+}
+
+.search{
+    cursor: pointer;
+}
+
+.search img{
+    width: 24px;
+    height: auto;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-right: 23px;
+}
+
+/* xxxxxxxxxxxxx fim seção do header xxxxxxxxxxxxxxxx */
+
+
+
+
+
+/* xxxxxxx Estilização para margens laterais de todas as sections */
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.all-itens-one {
+    padding: 0 15px 0 15px;
+}
+
+.content-one{
+    width: 100%;
+    height: 308px;
+    margin-top: 15px;
+    margin-bottom: 24px;
+    border-radius: 24px;
+    background-image: url("../assets/Content 1 oc.png");
+    background-position:  center;
+}
+
+.text-content-one h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--dark);
+    margin-left: 15px;
+    padding-top: 20px;
+
+    animation: fade-in-up 1s ease 0.5s both;
+}
+
+.text-content-one p{
+    margin-top: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+    margin-left: 15px;
+
+    animation: fade-in-up 1s ease 0.5s both;
+}
+
+.calc:hover{
+    margin-left: 15px;
+
+    border-radius: 8px;
+
+    width: 174px;
+    height: 44px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--white);
+    margin-top: 24px ;
+
+    
+}
+
+
+.calc:hover {
+    margin-left: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--purple2);
+    background-color: transparent; /* Definindo o fundo como transparente */
+    width: 174px;
+    height: 44px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--purple2);
+    margin-top: 24px;
+    animation: fade-in 1s ease 1.5s both;
+    transition: all 0.3s ease;
+}
+
+.calc{
+    margin-left: 15px;
+
+    background: #845EF7;
+    border-radius: 8px;
+
+    width: 174px;
+    height: 44px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--white);
+    margin-top: 24px ;
+
+    animation: fade-in 1s ease 1.5s both;
+}
+
+.container-about{
+    background-color: var(--white2);
+ align-items: center;
+  justify-content: center;
+}
+
+.about h2{
+    padding-top: 15px; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--dark);
+}
+
+.about p{
+    padding-top: 17px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+/* section 2 == Mais */
+.section-two{
+    position: relative;
+}
+
+
+.img-content-two{
+    padding-top: 24px;
+    z-index: -1;
+}
+
+.img-content-two img{
+    width: 100%;
+    height: auto;
+}
+
+.text-section-two{
+    position: relative;
+    width: 100%;
+    height: 225px;
+    border: 1px solid #D3D7DB;
+    border-radius: 16px;
+    background-color: var(--white);
+    z-index: 1;
+    margin-top: -130px;
+}
+
+.text-section-two p{
+    padding-left: 15px;
+    padding-top: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+.text-section-two button{
+    margin-top: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 14px 15px 24px 15px;
+    width: 90%;
+    height: 44px;
+    border: 1px solid var(--purple2);
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--purple2);
+    background-color: var(--white);
+
+}
+
+/* section 3 == cubo */
+
+.about-company{
+    margin-top: 16px;
+    width: 100%;
+    height: 268px;
+    background: #FFFFFF;
+    border: 1px solid #D3D7DB;
+    border-radius: 16px;
+}
+
+.class-margin-about{
+    padding: 0 15px 0 15px;
+}
+
+.itens-about-company{
+    padding: 15px 15px 15px 15px;
+}
+
+.itens-about-company h2{
+    padding-top: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+.itens-about-company p{
+    color: var(--dark);
+
+    padding-top: 8px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+}
+/* section 4 ================================================================ cubo */
+.service{
+    margin-top: 16px;
+}
+
+/*  inicio section 5 ===================================================== Como trabalhamos */
+
+.work-class{
+    margin-top: 39px;
+    padding: 0 15px 0 15px;
+}
+
+.work-content-class h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--dark);
+}
+
+.work-content-class img{
+    margin-top: 26px;
+    width: 100%;
+}
+
+.work-content-class h3{
+    margin-top: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+.work-content-class p{
+    margin-top: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+.button-part-three{
+    width: calc(100% - 30px);
+    display: inline-block;
+    padding: 18px 15px 39px 15px;
+}
+
+.button-part-three-one{
+    width: 45%;
+    height: 44px;
+    background: #845EF7;
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--white);
+    margin-right: 16px;
+}
+
+.button-part-three-two{
+    width: 45%;
+    height: 44px;
+    border: 1px solid var(--purple2);
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--purple2);
+    background-color: var(--white);
+}
+
+/*  inicio section 6 ===================================================== Vantagens */
+
+#vant{
+    margin-top: 16px;
+}
+
+.title-vantagens{
+    padding: 15px 15px 0 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--dark);
+    margin-bottom: 25px;
+}
+
+.all-itens-vantagens{
+    background-color: var(--white2);
+    width: 100%;
+}
+
+.container-vantagens{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: calc(100% - 30px);
+    height: auto;  
+    background: var(--white);
+    border: 1px solid var(--gray3);
+    border-radius: 16px;
+}
+
+.content-vantagens{
+    display: inline-flex;
+}
+
+
+.content-vantagens img{
+    width: 40px;
+    height: auto;
+    padding-bottom: 160px;
+    padding-left: 15px;
+    padding-top: 21px;
+}
+
+.content-vantagens p{
+    padding-right: 10px;
+    padding-left:  15px;
+    padding-top: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+.container-calendario{
+    margin: 0 15px 0 15px;
+    width: calc(100% - 30px);
+    height: auto;  
+    background: var(--white);
+    border: 1px solid var(--gray3);
+    border-radius: 16px;
+}
+
+.content-calendario{
+    display: inline-flex;
+}
+
+.content-calendario img{
+    width: 40px;
+    height: auto;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.content-calendario p{
+    padding-right: 10px;
+    padding-left:  10px;
+    padding-top: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+#aviator{
+    padding-bottom: 170px;
+}
+
+.calendario{
+    padding-bottom: 15px;
+}
+
+
+/*  inicio section 7 ===================================================== Serviços */
+
+.title-services h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--dark);
+    padding-left: 15px;
+    padding-top: 24px;
+}
+
+.card-services{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+}
+
+#services-1{
+    padding-top: 25px;
+}
+
+.container-services img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.container-controls{
+    width: 100%;
+    height: auto;
+    background-color: var(--white2);
+    display: inline-flex;
+    border-radius: 16px;
+}
+
+.text-controls h2{
+    padding-top: 18px;
+    padding-left: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--purple);
+}
+
+.text-controls p{
+    margin-top: 15px;
+    padding-left: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--dark);
+}
+
+.buton-destination button{
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #845EF7;
+    border-radius: 8px;
+    background-color: var(--white2);
+}
+
+.img-button{
+    width: 16px;
+    height: 16px;
+}
+
+#services-3{
+    margin-bottom: 24px;
+}
+
+/*  inicio footer ===================================================== footer */
+
+footer{
+    background-color: var(--dark);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.title-footer h2{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--white);
+}
+
+.form{
+    margin-right: 15px;
+    margin-top: 26px;
+    display: block;
+}
+
+.name-map{
+    
+    width: calc(100% - 40px);
+    height: 52px;
+    background: #30373E;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: var(--gray2);
+    padding-left: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.city{
+    margin-top: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: calc(100% - 20px);
+    height: 52px;
+    background: #30373E;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: var(--gray2);
+}
+
+.date input{
+    margin-top: 16px;
+    width: calc(100% - 40px);
+    height: 52px;
+    background: #30373E;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: var(--gray2);
+    padding-left: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url("../assets/calendario.svg");
+    background-repeat: no-repeat;
+    background-position: 98%;
+}
+
+.email{
+     margin-top: 16px;   
+     width: calc(100% - 40px);
+    height: 52px;
+    background: #30373E;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: var(--gray2);
+    padding-left: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.concordo{
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.concordo input{
+    width: 24px;
+    height: 24px;
+}
+
+
+.concordo p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: var(--white);
+}
+
+.button-enviar{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 16px;
+}
+
+.button-enviar button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 44px;
+    background: var(--purple2);
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    text-align: center;
+    color: var(--white);
+}
+
+.text-footer p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: var(--white);
+    padding: 15px 15px 31.83px 15px;
+}
+
+.text-footer img{
+    padding-left: 15px;
+    padding-bottom: 31.83px;
+}
+
+.footer-about h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--white);
+    padding-left: 15px;
+}
+
+.lista-about{  
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.lista-about li{
+    padding-bottom: 16px;  
+}
+
+.list{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--white);
+   
+}
+
+.redes-social{
+    margin-left: 15px;
+}
+
+.inst{
+    padding-right: 24px;
+}
+
+.redes-social{
+    margin-top: 32px;
+    padding-bottom: 44px;
+}
+
+
+
+
+/* Estilização version Tablet*/
+
+@media (min-width: 768px) {
+
+        .buttons-header{
+            margin-left: 50px;
+        }
+
+        .search{
+            margin-right: 50px;
+        }
+
+        .content-one{
+            width: calc(100% - 100px);
+            height: 662px;
+            margin-left: 50px;
+            margin-right: 50px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .text-content-one{
+            margin-left: 40px;
+        }
+
+        .text-content-one h2{
+            margin-right: 40px;
+            margin-top: 40px;
+            font-size: 72px;
+            font-weight: 800;
+            line-height: 120%;
+        }
+
+        .text-content-one p{
+            margin-top: 24px;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 130%;
+            letter-spacing: 0.24px;
+        }
+
+        .button-one{
+            margin-left: 40px;
+        }
+
+        .button-one button{
+            margin-top: 48px;
+            width: 141px;
+            height: 22px;
+            
+        }
+
+        .about{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .about h2{
+            font-size: 48px;
+            line-height: 125%;
+        }
+
+        .about p{
+            font-size: 18px;
+            line-height: 180%;
+            letter-spacing: 0.18px;
+        }
+
+        .section-two{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .text-section-two{
+            position: relative;
+            display: flex;
+        }
+        
+        .text-section-two p{
+            margin-left: 50px;
+        }
+
+        .img-content-two{
+            width: 100%;
+        }
+
+        .img-content-two img{
+            height: auto;
+            object-fit: cover;
+        }
+
+        .text-section-two{
+            padding-top: 40px;
+        }
+
+        .text-section-two p{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 180%;
+            letter-spacing: 0.18px;
+        }
+
+        .text-section-two button{
+            padding: 5px;
+            width: 168px;
+            height: 58px;
+        }
+
+        .consulting{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .itens-about-company{
+            display: flex;
+        }
+
+        .img-about{
+            margin-left: 40px;
+            margin-top: 40px;
+            align-items: center;
+            width: 150px;
+            height: auto;
+        }
+
+        .itens-about-company-text{
+            margin-left: 32px;
+            margin-right: 40px;
+        }
+
+        .itens-about-company-text h2{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 180%;
+            letter-spacing: 0.18px;
+        }
+
+        .itens-about-company-text p{
+            font-size: 16px;
+            line-height: 200%;
+            letter-spacing: 0.16px;
+        }
+
+        .itens-about-arquiteto{
+            display: flex;
+        }
+
+        .service{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .engrenagem{
+            margin-left: 40px;
+        }    
+
+        .work-class{
+            margin: 0 50px 0 50px;
+        }
+
+        .work-content-class h2{
+            margin-top: 50px;
+            font-size: 48px;
+        }
+
+        .work-content-class h3{
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 130%;
+            letter-spacing: 0.24px;
+        }
+
+        .work-content-class p{
+            font-size: 16px;
+            line-height: 200%;
+            letter-spacing: 0.16px;
+        }
+        
+        .button-part-three{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .button-part-three-one{
+            width: 15%;
+        }
+
+        .button-part-three-two{
+            width: 25%;
+        }
+
+        .work-content-class h2{
+            font-size: 48px;
+            line-height: 125%;
+        }
+
+        .work-content-class h3{
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 130%;
+            letter-spacing: 0.24px;
+        }
+
+        .work-content-class{
+            font-size: 16px;
+            line-height: 200%;
+            letter-spacing: 0.16px;
+        }
+
+        .bigger-box-vantagens{
+            display: inline-flex;
+        }
+
+        .margin-all-itens-vantagens{
+            margin: 0 50px 0 50px;
+        }
+
+        .left-services{
+            display: inline-flex;
+        }
+
+        .center-services{
+            display: inline-flex;
+        }
+
+        .rigth-services{
+            display: inline-flex;
+        }
+
+        .services{
+            margin: 0 50px 0 50px;
+        }
+
+        .all-itens-footer{
+            margin-left: 50px;
+        }
+
+        .title-footer{
+            padding-top: 50px;
+        }
+
+        .title-footer h2{
+            font-family: Montserrat;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 125%; 
+        }
+
+        .name-map{
+            width: 570px;
+            height: 60px;
+            flex-shrink: 0;
+        }
+
+        .city{
+            width: 590px;
+            height: 60px;
+        }
+
+        .date input{
+            width: 570px;
+            height: 60px;
+        }
+
+        .name-email input{
+            width: 570px;
+            height: 60px;
+        }
+
+        .container-enviar{
+            display: inline-flex;
+            flex-direction: row-reverse;
+        }
+
+        .concordo{
+            font-family: Open Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px; 
+            letter-spacing: 0.14px;
+        }
+
+        .button-enviar{
+            width: 145px;
+            height: 58px;
+        }
+
+        .text-footer p{
+            margin-right: 120px;
+            font-family: Open Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 200%; 
+            letter-spacing: 0.16px;
+        }
+
+        .l
+
+        .footer-about{
+            display: inline-flex;
+        }
+        
+}
+
+/* reset in css*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+ u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* fim do reset*/
