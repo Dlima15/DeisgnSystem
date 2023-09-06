@@ -60,6 +60,14 @@
   height: 2px;
 }
 
+.bar:hover {
+  background-color: var(--purple);
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: 24px;
+  height: 2px;
+}
+
 .logo {
   cursor: pointer;
 }
@@ -156,6 +164,17 @@
   transition: all 2s ease;
 }
 
+.calc:focus {
+  width: 174px;
+  height: 44px;
+  border: 4px solid #E1D4FF;
+  background-color: #845EF7;
+}
+
+.calc:active {
+  background-color: var(--purple);
+}
+
 .calc {
   margin-left: 15px;
   background: #845EF7;
@@ -186,6 +205,7 @@
   font-size: 32px;
   line-height: 120%;
   color: var(--dark);
+  animation: fade-in-up 1s ease 0.5s both;
 }
 
 .about p {
@@ -197,6 +217,7 @@
   line-height: 180%;
   letter-spacing: 0.01em;
   color: var(--dark);
+  animation: fade-in-up 1s ease 0.5s both;
 }
 
 /* section 2 == Mais */
@@ -212,6 +233,7 @@
 .img-content-two img {
   width: 100%;
   height: auto;
+  animation: fade-in-up 1s ease 0.5s both;
 }
 
 .text-section-two {
@@ -223,6 +245,7 @@
   background-color: var(--white);
   z-index: 1;
   margin-top: -130px;
+  animation: fade-in-up 1s ease 0.5s both;
 }
 
 .text-section-two p {
@@ -235,6 +258,7 @@
   line-height: 180%;
   letter-spacing: 0.01em;
   color: var(--dark);
+  animation: fade-in-up 1s ease 0.5s both;
 }
 
 .text-section-two button {
@@ -255,6 +279,25 @@
   background-color: var(--white);
 }
 
+.text-section-two button:hover {
+  margin-top: 24px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 14px 15px 24px 15px;
+  width: 90%;
+  height: 44px;
+  border: 1px solid var(--purple3);
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--white);
+  background-color: var(--purple2);
+  transition: all 1s ease;
+}
+
 /* section 3 == cubo */
 .about-company {
   margin-top: 16px;
@@ -263,6 +306,7 @@
   background: #FFFFFF;
   border: 1px solid #D3D7DB;
   border-radius: 16px;
+  animation: fade-in-up 1s ease 0.5s both;
 }
 
 .class-margin-about {
@@ -271,6 +315,7 @@
 
 .itens-about-company {
   padding: 15px 15px 15px 15px;
+  animation: fade-in-up 1s ease 0.5s both;
 }
 
 .itens-about-company h2 {
@@ -282,6 +327,7 @@
   line-height: 180%;
   letter-spacing: 0.01em;
   color: var(--dark);
+  animation: fade-in-up 1s ease 0.5s both;
 }
 
 .itens-about-company p {
@@ -293,6 +339,7 @@
   font-size: 14px;
   line-height: 180%;
   letter-spacing: 0.01em;
+  animation: fade-in-up 1s ease 0.5s both;
 }
 
 /* section 4 ================================================================ cubo */
@@ -304,6 +351,7 @@
 .work-class {
   margin-top: 39px;
   padding: 0 15px 0 15px;
+  animation: fade-in-up 1s ease 0.5s both;
 }
 
 .work-content-class h2 {
@@ -313,11 +361,13 @@
   font-size: 32px;
   line-height: 120%;
   color: var(--dark);
+  animation: fade-in-up 1s ease 0.5s both;
 }
 
 .work-content-class img {
   margin-top: 26px;
   width: 100%;
+  animation: fade-in-up 1s ease 0.5s both;
 }
 
 .work-content-class h3 {
@@ -329,6 +379,7 @@
   line-height: 180%;
   letter-spacing: 0.01em;
   color: var(--dark);
+  animation: fade-in-up 1s ease 0.5s both;
 }
 
 .work-content-class p {
@@ -340,6 +391,7 @@
   line-height: 180%;
   letter-spacing: 0.01em;
   color: var(--dark);
+  animation: fade-in-up 1s ease 0.5s both;
 }
 
 .button-part-three {
@@ -362,6 +414,21 @@
   margin-right: 16px;
 }
 
+.button-part-three-one:hover {
+  width: 45%;
+  height: 44px;
+  border: 1px solid var(--purple2);
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--purple2);
+  background-color: var(--white);
+  transition: all 1s ease;
+}
+
 .button-part-three-two {
   width: 45%;
   height: 44px;
@@ -376,7 +443,42 @@
   background-color: var(--white);
 }
 
+.button-part-three-two:hover {
+  width: 45%;
+  height: 44px;
+  background: #845EF7;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--white);
+  margin-right: 16px;
+  transition: all 1s ease;
+}
+
 /*  inicio section 6 ===================================================== Vantagens */
+.vantagens .container-vantagens {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adicione a propriedade de transição */
+}
+
+.vantagens .container-vantagens:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.calendario .container-calendario:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.calendario .container-calendario {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adicione a propriedade de transição */
+}
+
 #vant {
   margin-top: 16px;
 }
@@ -475,6 +577,31 @@
 }
 
 /*  inicio section 7 ===================================================== Serviços */
+.card-services:hover .container-controls {
+  transform: translateY(-20px);
+  transition: transform 0.3s ease; /* Ajuste a duração da transição conforme necessário */
+}
+
+.banner-text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.banner-button {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.banner-text.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.banner-button.show {
+  opacity: 1;
+}
+
 .title-services h2 {
   font-family: "Montserrat";
   font-style: normal;
@@ -554,6 +681,57 @@
 }
 
 /*  inicio footer ===================================================== footer */
+.list {
+  text-decoration: none;
+  color: #000; /* Cor padrão */
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.list:hover {
+  text-decoration: underline;
+}
+
+.list.active {
+  color: #ff0000; /* Cor quando clicado */
+}
+
+.redes-social img {
+  transition: fill 0.3s ease; /* Supondo que os ícones das redes sociais são SVGs com fill */
+}
+
+.redes-social img:hover {
+  fill: #ff0000; /* Cor de preenchimento quando sobreposto */
+}
+
+input:invalid {
+  animation: pulse 0.5s ease infinite alternate, red-border 0.5s ease infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes red-border {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: #ff0000;
+  }
+}
+button.calcular {
+  background-color: #007bff; /* Cor original */
+  transition: background-color 1s ease;
+}
+
+button.calcular:hover {
+  background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+}
+
 footer {
   background-color: var(--dark);
   margin-left: 15px;
@@ -701,6 +879,19 @@ footer {
   display: flex;
   text-align: center;
   color: var(--white);
+}
+
+.button-enviar button:hover {
+  border: 1px solid var(--purple2);
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--purple2);
+  background-color: var(--white);
+  transition: all 1s ease;
 }
 
 .text-footer p {
