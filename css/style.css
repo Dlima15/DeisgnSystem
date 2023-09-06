@@ -58,14 +58,22 @@
   margin-bottom: 6px;
   width: 24px;
   height: 2px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.bar:hover {
-  background-color: var(--purple);
-  margin-top: 6px;
-  margin-bottom: 6px;
-  width: 24px;
-  height: 2px;
+.menu-button:hover .bar,
+.menu-button:active .bar {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* Adicione a sombra quando hover ou active */
+}
+
+/* Mudança de cor para hover */
+.menu-button:hover .bar {
+  background-color: #5A27F2;
+}
+
+/* Mudança de cor para active */
+.menu-button:active .bar {
+  background-color: #5A27F2;
 }
 
 .logo {
